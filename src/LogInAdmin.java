@@ -15,3 +15,5 @@ public class LogInAdmin extends LogIn {
     }
 }
 
+//posible violacion de LSP PERO AUN NO SE COMO MANEJAR ESO
+

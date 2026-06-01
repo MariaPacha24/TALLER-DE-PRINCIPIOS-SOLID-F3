@@ -1,14 +1,14 @@
 public class AppWeb {
     LogIn logIn;
     LogInAdmin logInAdmin;
-    MySQL mySQL;
-    public AppWeb (LogIn logIn, MySQL mySQL) {
+    BasesDatos basedatos;
+    public AppWeb (LogIn logIn, BasesDatos basedatos) {
         // Logic
     }
-    public AppWeb (LogInAdmin logInAdmin, MySQL mySQL) {
+    public AppWeb (LogInAdmin logInAdmin, BasesDatos basedatos) {
         // Logic
     }
-    public void connectToDatabase (MySQL mySQL) {
+    public void connectToDatabase (BasesDatos basedatos) {
         // Logic
     }
 }
